@@ -15,4 +15,4 @@ jobs:
         run: |
           docker build -t alishba208/python-auth-example .
           docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-          docker push alishba208/python-auth-example
+          docker push alishbanadeem208/python-auth-example
